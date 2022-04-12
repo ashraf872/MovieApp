@@ -6,8 +6,8 @@ const Search = ({search, handelSearch, serachRating, handelRating}) => {
         <div className='header-container'>
             <h1>Our movie app</h1>
             <div className='search-container'>
-                <input className='inp' type='text' value={search} onChange={handelSearch}/>
-                <StarRating rating={serachRating} handelRating={handelRating}  />
+                <input className='inp' type='text' value={search} onChange={handelSearch} placeholder="enter a movie to search"/>
+                <StarRating rating={serachRating} handelRating={handelRating}/>
             </div>
         </div>
     )

@@ -28,12 +28,12 @@ export const moviesData = [
       name: "Fantastic Beasts and Where to Find Them",
       date: "November 2016",
     },
-    {
-      id: Math.random(),
-      image:
-        "https://vignette.wikia.nocookie.net/themoviesgamelionhead/images/d/db/Cat_in_the_hat.jpg/revision/latest?cb=20130905001657",
-      rating: 2,
-      name: "Cat In The Hat",
-      date: "November 2003",
-    },
+    // {
+    //   id: Math.random(),
+    //   image:
+    //     "https://vignette.wikia.nocookie.net/themoviesgamelionhead/images/d/db/Cat_in_the_hat.jpg/revision/latest?cb=20130905001657",
+    //   rating: 2,
+    //   name: "Cat In The Hat",
+    //   date: "November 2003",
+    // },
   ];

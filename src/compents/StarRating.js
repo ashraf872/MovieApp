@@ -6,9 +6,9 @@ const StarRating = ({rating , handelRating}) => {
         var star = [];
         for (let i = 1; i <= 5 ; i++) {
             if(i <= x){
-                star.push(<span onClick={()=>handelRating(i)} style={{color:'gold' , fontSize:'20px'}}>★</span>);
+                star.push(<span  key={i} onClick={()=>handelRating(i)} style={{color:'gold' , fontSize:'20px',cursor:"pointer"}}>★</span>);
             }else{
-                star.push(<span onClick={()=>handelRating(i)} style={{color:'black' , fontSize:'20px' }}>★</span>);
+                star.push(<span  key={i} onClick={()=>handelRating(i)} style={{color:'black' , fontSize:'20px',cursor:"pointer" }}>★</span>);
 
             }
            
