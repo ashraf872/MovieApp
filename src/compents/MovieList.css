@@ -1,3 +1,7 @@
 .newLink{
   text-decoration:none !important;
 }
+#container{
+  display: flex;
+  justify-content: center;
+}
