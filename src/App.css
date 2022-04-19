@@ -106,8 +106,11 @@ form > label {
   width: 100px;
   border: 0.5px solid rgba(0, 0, 0, 0.37);
   padding: 0.5rem 1rem;
+  
 }
-
+.btnow{
+  margin-left: 638px;
+}
 .btn-danger {
   color: white;
   background: darkred;

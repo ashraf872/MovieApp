@@ -22,23 +22,14 @@ const handelDelete = (ID) =>{
     );
   };
 
-  // const handelFind = (name) => {
-  //   movies.find((el) => el.name === name)
-  // }
-// const [movie,DeleteMovie] = useState({moviesData});
-// const handelDelete = (newMovie) =>DeleteMovie([...movie, newMovie])
+
 
 const [search, setSearch] = useState('')
 const handelSearch=(e)=> setSearch (e.target.value)
 const [serachRating, setserachRating] = useState(1)
 const handelRating=(rating)=> setserachRating(rating)
 
-// const [movie,updateMovie] = useState(moviesData);
-// const handelDelete = (ID) => {
-//   updateMovie(movie.filter((item)=>item.id !== ID))
 
-
-// const [movie,deleteMovie] = useState(moviesData);
 
   return (
     <Router>

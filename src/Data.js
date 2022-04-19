@@ -6,7 +6,7 @@ export  const moviesData = [
       name: "Star Wars: The Rise Of Skywalker",
       date: "December 2019",
       isDone :false,
-      source: "https://www.youtube.com/embed/s9APLXM9Ei8"
+      source: "https://www.youtube.com/watch?v=8Qn_spdM5Zg"
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ export  const moviesData = [
       name: "Avengers: Infinity War",
       date: "April 2018",
       isDone :false,
-      source: "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+      source: "https://www.youtube.com/watch?v=6ZfuNTqbHE8&t=1s"
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ export  const moviesData = [
       name: "Frozen II",
       date: "November 2019",
       isDone :false,
-      source: "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+      source: "https://www.youtube.com/watch?v=nrZxwPwmgrw"
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ export  const moviesData = [
       name: "Fantastic Beasts and Where to Find Them",
       date: "November 2016",
       isDone :false,
-      source: "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+      source: "https://www.youtube.com/watch?v=ViuDsy7yb8M"
     },
     // {
     //   id: Math.random(),
